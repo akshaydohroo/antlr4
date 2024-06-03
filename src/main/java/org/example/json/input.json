@@ -1,0 +1,18 @@
+{
+  "array": [
+    1,
+    2,
+    {
+      "Integer": 11
+    }
+  ],
+  "boolean": true,
+  "color": "gold",
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d"
+  },
+  "string": "Hello World"
+}

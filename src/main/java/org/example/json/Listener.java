@@ -2,16 +2,11 @@ package org.example.json;
 
 import java.util.*;
 
-import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.tree.*;
-
-import java.io.IOException;
-
-public class Visitor extends JSONBaseListener {
+public class Listener extends JSONBaseListener {
 
 
     private Object result;
-    private Stack<Object> stack = new Stack<>();
+    private final Stack<Object> stack = new Stack<>();
 
     public Object getResult() {
         return result;
